@@ -1,3 +1,6 @@
+# Live Demo
+[https://ordent-albums.vercel.app/](https://ordent-albums.vercel.app/)
+
 # Specifications
 
 ## Pages
@@ -16,6 +19,9 @@ This is list of route, parameters, and endpoints that used on each pages.
   - id (required)
 - Endpoints
   - GET `https://jsonplaceholder.typicode.com/photos?albumId=`
+
+## Deployment
+You can find CI/CD deployment in https://github.com/ilhamgunawan/ordent-albums/blob/main/.github/workflows/deploy.yml
 
 ***
 
