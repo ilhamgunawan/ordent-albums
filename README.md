@@ -1,3 +1,24 @@
+# Specifications
+
+## Pages
+
+This is list of route, parameters, and endpoints that used on each pages.
+
+### Index Page
+- Route: `/`
+- Endpoints
+  - GET `https://jsonplaceholder.typicode.com/albums`
+  - GET `https://jsonplaceholder.typicode.com/users/:id`
+
+### Album Detail Page
+- Route: `/albums/:id`
+- Parameters
+  - id (required)
+- Endpoints
+  - GET `https://jsonplaceholder.typicode.com/photos?albumId=`
+
+***
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
