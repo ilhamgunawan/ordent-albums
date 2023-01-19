@@ -4,6 +4,14 @@ const nextConfig = {
   publicRuntimeConfig: {
     baseUrl: "https://jsonplaceholder.typicode.com/",
   },
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'via.placeholder.com',
+      },
+    ],
+  },
 }
 
 module.exports = nextConfig
