@@ -14,7 +14,7 @@ export default function PhotoItem({ photo, setPopUpPhoto }: Props) {
       onClick={() => setPopUpPhoto(photo)}
       htmlFor="my-modal"
     >
-      <img src={photo.thumbnailUrl} alt={photo.title} />
+      <img src={photo.thumbnailUrl} className="bg-gray-100" alt={photo.title} />
     </label>
   )
 }
